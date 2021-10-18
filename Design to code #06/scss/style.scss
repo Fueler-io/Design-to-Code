@@ -1,0 +1,100 @@
+@import './settings';
+
+// Navbar
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid $sec-color;
+
+
+    .Navbar__items-extra {
+        gap: 20px;
+    }
+}
+
+.Navbar__items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .Navbar__link {
+        font-weight: 600;
+        font-size: 17px;
+
+        &:hover {
+            border-bottom: 2px solid $pry-color;
+        }
+    }
+}
+
+.features-item {
+    border: 1px solid $grey;
+    background: white;
+    z-index: 3;
+    width: 10rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: absolute;
+
+
+    .flex-perfect {
+        gap: 10px;
+
+
+        .blue-text {
+            margin-top: -5px;
+        }
+    }
+
+    .brand-icon {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 6.5rem;
+    }
+}
+
+
+.Hero {
+    margin: 1rem 0;
+    gap: 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+
+    .Hero__text {
+
+
+        .Hero-heading {
+            font-size: 4.5rem;
+            font-weight: 800;
+
+            span {
+                display: block;
+                margin-top: -10px;
+            }
+        }
+
+        .para {
+            color: $acc-color;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+    }
+
+}
+
+.bottom-image {
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    width: 80%;
+    border-radius: 20px;
+    z-index: 3;
+    margin-top: -1rem;
+    gap: 2rem;
+
+}
