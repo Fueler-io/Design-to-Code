@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #FFF8F2;
+    height: 100vh;
+    overflow: hidden;
+}
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 10vh;
+    border-bottom: 3px solid #F6EDDB;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    font-family: 'Archivo', sans-serif;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #4D2D10;
+}
+nav li:nth-child(1) {
+    border-bottom: 3px solid #F8964F;
+    color: #F8964F;
+}
+nav button:nth-child(1) {
+    background-color: transparent;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 8px;
+    letter-spacing: 0.01em;
+    color: #4D2D10;
+}
+nav button:nth-child(2) {
+    background-color: #F8964F;
+    background: #F89954;
+    box-shadow: -3px 8px 24px rgba(248, 153, 84, 0.35);
+    border-radius: 116px;
+    padding: 15px 25px;
+    color: white;
+}
+main {
+    display: flex;
+    margin: auto;
+}
+.banner-img {
+    display: flex;
+    align-content: flex-end;
+    height: 90vh;
+}
+.banner-right {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100%;
+    max-width: 450px;
+}
+h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 103.159px;
+    line-height: 97.5%;
+    letter-spacing: -0.005em;
+    color: #4D2D10;
+}
+h1:nth-child(2) {
+    text-shadow: 0px 0px 3px #f8964f;
+    color: #F89954;
+}
+p {
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 173%;
+    letter-spacing: -0.01em;
+    color: black;
+    margin: 43px 6px;
+}
+button {
+    
+    border-radius: 126px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Archivo', sans-serif;
+    line-height: 18px;
+    letter-spacing: 1%;
+}
+.cta-button {
+    padding: 15px 35px;
+    background-color: #F8964F;
+}
+.socials {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 40px;
+}
+@media (max-width:720px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        overflow: auto;
+    }
+    .banner-img {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+}
