@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$pry-color: #3E6CF9;
+$sec-color: #061F6A;
+$acc-color:#0E2152;
+$dark-blue:0E2152;
+$blue-2:#1239B4;
+$sky-blue:#E1E8FF;
+$grey: #E8E8E8;
+
+
+
+//general styles
+a {
+    color: $acc-color;
+    text-decoration: none;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    background: radial-gradient(circle, hsla(216, 100%, 94%, 0.8) 20%, hsla(222, 100%, 98%, 0.3) 100%);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-perfect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// components
+.btn-primary {
+    width: 7rem;
+    height: 2.3rem;
+    border-radius: 7px;
+    border: transparent;
+    font-weight: 600;
+}
+
+
+.solid-btn {
+    background: $pry-color;
+    color: white;
+}
+
+.transparent-btn {
+    color: $pry-color;
+    border: 2px solid $pry-color;
+    background: inherit;
+}
+
+.sec-btn {
+    @extend .btn-primary;
+    @extend .solid-btn;
+    width: 12rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+
+}
+
+.heart-emoji {
+    width: 5rem;
+}
+
+//typo
+.bold {
+    font-weight: 700;
+}
+
+.blue-text {
+    color: $pry-color;
+}
+
+.dark-blue__text {
+    color: $acc-color;
+}
+
+.spray-icon {
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.two {
+    left: 10%;
+    margin-top: -15rem;
+}
+
+.three {
+    margin-top: -16rem;
+    margin-left: -15rem;
+}
+
+.one {
+    left: 10%;
+    margin-top: 10rem;
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+a {
+  color: #0E2152;
+  text-decoration: none; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+body {
+  font-size: 15px;
+  background: radial-gradient(circle, rgba(224, 237, 255, 0.8) 20%, rgba(245, 248, 255, 0.3) 100%); }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+.flex-perfect {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btn-primary, .sec-btn {
+  width: 7rem;
+  height: 2.3rem;
+  border-radius: 7px;
+  border: transparent;
+  font-weight: 600; }
+
+.solid-btn, .sec-btn {
+  background: #3E6CF9;
+  color: white; }
+
+.transparent-btn {
+  color: #3E6CF9;
+  border: 2px solid #3E6CF9;
+  background: inherit; }
+
+.sec-btn {
+  width: 12rem;
+  height: 2.5rem;
+  margin-top: 1rem; }
+
+.heart-emoji {
+  width: 5rem; }
+
+.bold {
+  font-weight: 700; }
+
+.blue-text {
+  color: #3E6CF9; }
+
+.dark-blue__text {
+  color: #0E2152; }
+
+.spray-icon {
+  position: absolute;
+  right: 0;
+  top: 20%; }
+
+.two {
+  left: 10%;
+  margin-top: -15rem; }
+
+.three {
+  margin-top: -16rem;
+  margin-left: -15rem; }
+
+.one {
+  left: 10%;
+  margin-top: 10rem; }
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid #061F6A; }
+  .Navbar .Navbar__items-extra {
+    gap: 20px; }
+
+.Navbar__items {
+  display: flex;
+  align-items: center;
+  gap: 20px; }
+  .Navbar__items .Navbar__link {
+    font-weight: 600;
+    font-size: 17px; }
+    .Navbar__items .Navbar__link:hover {
+      border-bottom: 2px solid #3E6CF9; }
+
+.features-item {
+  border: 1px solid #E8E8E8;
+  background: white;
+  z-index: 3;
+  width: 10rem;
+  border-radius: 10px;
+  padding: 5px 10px;
+  position: absolute; }
+  .features-item .flex-perfect {
+    gap: 10px; }
+    .features-item .flex-perfect .blue-text {
+      margin-top: -5px; }
+  .features-item .brand-icon {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 6.5rem; }
+
+.Hero {
+  margin: 1rem 0;
+  gap: 10rem;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .Hero .Hero__text .Hero-heading {
+    font-size: 4.5rem;
+    font-weight: 800; }
+    .Hero .Hero__text .Hero-heading span {
+      display: block;
+      margin-top: -10px; }
+  .Hero .Hero__text .para {
+    color: #0E2152;
+    font-weight: 700;
+    font-size: 1rem; }
+
+.bottom-image {
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  width: 80%;
+  border-radius: 20px;
+  z-index: 3;
+  margin-top: -1rem;
+  gap: 2rem; }
